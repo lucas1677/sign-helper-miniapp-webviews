@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>toast/_resource/icon_warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="toast/_resource/icon_warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="fill" stroke="#FFFFFF" stroke-width="2" cx="36" cy="36" r="35"></circle>
+        <path d="M35,18 L37,18 L37,42 L35,42 L35,18 Z M35,48 L37,48 L37,54 L35,54 L35,48 Z" id="fill" fill="#FFFFFF"></path>
+    </g>
+</svg>

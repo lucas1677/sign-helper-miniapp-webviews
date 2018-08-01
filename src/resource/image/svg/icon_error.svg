@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>toast/_resource/icon_error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="toast/_resource/icon_error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="fill" stroke="#FFFFFF" stroke-width="2" cx="36" cy="36" r="35"></circle>
+        <path d="M16.4668844,36.3316434 L56.4946062,36.3316434" id="fill" stroke="#FFFFFF" stroke-width="2" transform="translate(36.480745, 36.331643) rotate(-315.000000) translate(-36.480745, -36.331643) "></path>
+        <path d="M36.1973057,56.523662 L36.1973057,16.4959402" id="fill" stroke="#FFFFFF" stroke-width="2" transform="translate(36.697306, 36.509801) rotate(-315.000000) translate(-36.697306, -36.509801) "></path>
+    </g>
+</svg>
