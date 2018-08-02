@@ -1,12 +1,12 @@
-$pageHeight: 100rem;
+$ruleDetailPageHeight: 80rem;
 $titleColor: #EDDCAE;
 $commonTextColor: #FFFFFF;
 $mainBgColor: #C71823;
 
 .sign-in-activity-rule-detail {
   background: url("../image/rule-detail-bg.png") no-repeat;
-  background-size: 20rem $pageHeight;
-  height: $pageHeight;
+  background-size: 20rem $ruleDetailPageHeight;
+  height: $ruleDetailPageHeight;
 }
 
 *::-webkit-scrollbar {
@@ -19,8 +19,8 @@ $mainBgColor: #C71823;
 }
 
 .top-title {
-  padding-top: 4rem;
-  height: 12.15rem;
+  padding-top: 3.5rem;
+  height: 10rem;
 }
 
 .mini-title {
