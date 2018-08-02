@@ -41,31 +41,45 @@ class SignInActivityRuleDetail extends React.Component {
           <div className="common-content">
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">1</div>
-              活动期内使用【调研签到助手】进行会议签到的上市公司均为活动参与者；
+              <div className="detail-text">
+                活动期内使用【调研签到助手】进行会议签到的上市公司均为活动参与者；
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">2</div>
-              最具人气奖中奖率为总参与人数的5%（采取四舍五入），活动期间按照使用【调研签到助手】的签到人数为上市公司排名，前5%的上市公司即可获得最具人气奖。
+              <div className="detail-text">
+                最具人气奖中奖率为总参与人数的5%（采取四舍五入），活动期间按照使用【调研签到助手】的签到人数为上市公司排名，前5%的上市公司即可获得最具人气奖。
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">3</div>
-              最活跃奖的获奖者为使用【调研签到助手】次数最多的上市公司。
+              <div className="detail-text">
+                最活跃奖的获奖者为使用【调研签到助手】次数最多的上市公司。
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">4</div>
-              推荐赢人气：凡参与活动的上市公司，成功将【调研签到助手】推荐给其他上市公司使用，即可获得该公司调研活动签到总人数20%的人气奖励，好好利用这个斩获最具人气大奖的快速通道吧！（即A公司签到总人数=A公司每次活动签到人数+推荐使用的B公司签到总人数x20%+推荐使用的C公司签到总人数x20%+......）；
+              <div className="detail-text">
+                推荐赢人气：凡参与活动的上市公司，成功将【调研签到助手】推荐给其他上市公司使用，即可获得该公司调研活动签到总人数20%的人气奖励，好好利用这个斩获最具人气大奖的快速通道吧！（即A公司签到总人数=A公司每次活动签到人数+推荐使用的B公司签到总人数x20%+推荐使用的C公司签到总人数x20%+......）；
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">5</div>
-              活动统计：本次活动所有数据均会在机会宝后台自动统计，可在XXX上查看活动数据实时排名，以保公平公正；
+              <div className="detail-text">
+                活动统计：本次活动所有数据均会在机会宝后台自动统计，可在XXX上查看活动数据实时排名，以保公平公正；
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">6</div>
-              参与有奖：凡在活动期间使用【调研签到助手】签到的上市公司，采取随机抽奖的方式决定10名参与奖；
+              <div className="detail-text">
+                参与有奖：凡在活动期间使用【调研签到助手】签到的上市公司，采取随机抽奖的方式决定10名参与奖；
+              </div>
             </div>
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">7</div>
-              活动最终解释权归机会宝所有。
+              <div className="detail-text">
+                活动最终解释权归机会宝所有。
+              </div>
             </div>
           </div>
         </div>

@@ -63,7 +63,8 @@ $mainBgColor: #C71823;
 }
 
 .d-i-sequence-icon {
-  display: inline-block;
+  display: block;
+  float: left;
   background-color: $titleColor;
   color: $mainBgColor;
   width: 0.6rem;
@@ -71,6 +72,16 @@ $mainBgColor: #C71823;
   line-height: 0.6rem;
   font-size: 0.6rem;
   border-radius: 50%;
-  margin: 0 0.4rem;
+  margin: 0.4rem 0 0 0;
   text-align: center;
+}
+
+.rule-detail-item {
+  display: block;
+  clear: both;
+}
+
+.detail-text {
+  width: 15rem;
+  float: right;
 }
