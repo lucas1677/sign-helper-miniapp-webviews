@@ -1,1 +1,1 @@
-export const APP_CONTEXT_PATH = '';
+export const APP_CONTEXT_PATH = 'public/activity/promotion';

@@ -5,6 +5,7 @@ import {History} from 'history';
 import {connect} from 'react-redux';
 import {Redirect, Route, Switch} from 'react-router';
 
+import ParticipationAwardList from '@src/app/components/ParticipationAwardList';
 import SignInActivityRuleDetail from '@src/app/components/SignInActivityRuleDetail';
 import {AppState} from '@src/types/application';
 
@@ -21,6 +22,7 @@ class RootRouterApp extends React.Component<Props> {
                     <Switch>
                         <Redirect exact={true} from="/" to="/sign-in-activity-rule-detail"/>
                         <Route path="/sign-in-activity-rule-detail" component={SignInActivityRuleDetail}/>
+                        <Route path="/participation-award-list" component={ParticipationAwardList}/>
                     </Switch>
                 </SignInActivityRuleDetail>
             </ConnectedRouter>
