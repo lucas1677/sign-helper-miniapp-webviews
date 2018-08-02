@@ -10,16 +10,16 @@ import store from '@src/store';
 
 import {APP_CONTEXT_PATH} from '@src/commons/config';
 import {saveState} from '@src/localStorage';
-import fontStyle from '@src/resource/css/icon-font.css';
-import mainStyle from '@src/resource/css/main.css';
+import appStyle from '@src/resource/css/app.scss';
+import globalStyle from '@src/resource/css/global.scss';
 import normalizeStyle from '@src/resource/css/normalize.css';
 import {cssRaw} from 'typestyle';
 
 // import global css style: normalize & main style sheet.
 cssRaw(`
 ${normalizeStyle}
-${mainStyle}
-${fontStyle}
+${globalStyle}
+${appStyle}
 `);
 
 const history = createHistory({basename: APP_CONTEXT_PATH});

@@ -22,26 +22,3 @@ export const colors = {
     green0: '#4FC685',
     green9: '#D4F1EE',
 };
-
-export const fontSize = {
-    appLogoTextFontSize: '23px',
-    appLogoTextLineHeight: '50px',
-    categoryTitleFontSize: '55px',
-    categoryNavLinkFontSize: '24px',
-    bannerMainTextFontSize: '48px',
-    bannerMainTextLineHeight: '56px',
-    bannerDescriptionTextFontSize: '24px',
-    bannerDescriptionTextLineHeight: '33px',
-    topNavBarFontSize: '13px',
-    topNavBarLineHeight: '14.95px',
-    lessonListTitleFontSize: '18px',
-    lessonListTitleLineHeight: '20.7px',
-    mainContentFontSize: '18px',
-    mainContentLineHeight: '28px',
-    authorNameFontSize: '14px',
-    authorNameLineHeight: '16.1px',
-    articleMainContentFontSize: '15px',
-    articleMainContentLineHeight: '22.5px',
-    tagFontSize: '13px',
-    tagLineHeight: '14.95px',
-};

@@ -2,7 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>小程序签到助手后台</title>
+    <title>调研签到助手中报酷赏</title>
+    <script type="text/javascript">
+      // 思路： 将html元素的font-size设置为屏幕宽度的1/20
+      // ！警告 不要将 document.documentElement.clientWidth
+      //  换成 window.innerWidth, 在魅族手机下会出问题
+      document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+    </script>
 </head>
 <body>
 <div id="root">

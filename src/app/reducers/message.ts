@@ -1,11 +1,8 @@
-const SHOW_MESSAGE = 'SHOW_MESSAGE';
-export const showMessage = (message) => ({type: SHOW_MESSAGE, payload: message});
+import {Message} from '@src/types/application';
 
-export default (state: string = '', action) => {
-  switch (action.type) {
-    case SHOW_MESSAGE:
-      return action.payload;
-    default:
-      return state;
-  }
+export default (state: Message = null, action) => {
+    switch (action.type) {
+        default:
+            return state;
+    }
 };

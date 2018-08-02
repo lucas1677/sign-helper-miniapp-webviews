@@ -1,0 +1,76 @@
+$pageHeight: 100rem;
+$titleColor: #EDDCAE;
+$commonTextColor: #FFFFFF;
+$mainBgColor: #C71823;
+
+.sign-in-activity-rule-detail {
+  background: url("../image/rule-detail-bg.png") no-repeat;
+  background-size: 20rem $pageHeight;
+  height: $pageHeight;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  color: $titleColor;
+  text-align: center;
+}
+
+.top-title {
+  padding-top: 4rem;
+  height: 12.15rem;
+}
+
+.mini-title {
+  @extend .title;
+  color: $titleColor;
+  font-size: 0.8rem;
+}
+
+.big-title {
+  @extend .title;
+  color: $commonTextColor;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.rule-detail-content {
+  margin: 0 auto;
+  width: 16rem;
+}
+
+.l2-title {
+  @extend .title;
+  margin: 2.3rem auto 1.2rem auto;
+}
+
+.content {
+  color: $commonTextColor;
+  line-height: 1.4rem;
+  font-weight: normal;
+  font-size: 0.6rem;
+}
+
+.common-content {
+  @extend .content;
+}
+
+.align-center-content {
+  @extend .content;
+  text-align: center;
+}
+
+.d-i-sequence-icon {
+  display: inline-block;
+  background-color: $titleColor;
+  color: $mainBgColor;
+  width: 0.6rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  font-size: 0.6rem;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  text-align: center;
+}
