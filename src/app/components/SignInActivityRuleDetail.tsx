@@ -8,7 +8,7 @@ class SignInActivityRuleDetail extends React.Component {
           <div className="mini-title">调研签到助手中报酷赏</div>
           <div className="big-title">活动细则</div>
         </div>
-        <div className="rule-detail-content">
+        <div className="payload-content">
           <div className="l2-title">
             - 活动目的 -
           </div>
@@ -42,7 +42,7 @@ class SignInActivityRuleDetail extends React.Component {
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">1</div>
               <div className="detail-text">
-                活动期内使用【调研签到助手】进行会议签到的上市公司均为活动参与者；
+                活动期内使用【调研签到助手】进行会议签到或进行成功推荐的上市公司为活动参与者；
               </div>
             </div>
             <div className="rule-detail-item">
@@ -72,7 +72,7 @@ class SignInActivityRuleDetail extends React.Component {
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">6</div>
               <div className="detail-text">
-                参与有奖：凡在活动期间使用【调研签到助手】签到的上市公司，采取随机抽奖的方式决定10名参与奖；
+                参与有奖：凡在活动期间使用【调研签到助手】签到的上市公司，随机抽取参与总数的百分之二十作为参与奖获得者；
               </div>
             </div>
             <div className="rule-detail-item">

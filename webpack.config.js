@@ -36,7 +36,8 @@ module.exports = {
   },
   output: {
     path: outPath,
-    publicPath: '/',
+    // publicPath: '/',
+    publicPath: '/web/activity/promotion/',
     pathinfo: true
   },
   target: "web",
@@ -128,6 +129,8 @@ module.exports = {
       stats: {
         warnings: false
       },
+      historyApiFallback: true,
+      inline: true,
       allowedHosts: [
         'lucas.com',
         'lucas.s3.natapp.cc',

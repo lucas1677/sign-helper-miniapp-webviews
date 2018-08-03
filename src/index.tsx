@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 
-import {createHashHistory as createHistory} from 'history';
+// history type
+import {createBrowserHistory as createHistory} from 'history';
 import {throttle} from 'lodash';
 import {Provider} from 'react-redux';
 
@@ -15,7 +16,7 @@ import globalStyle from '@src/resource/css/global.scss';
 import normalizeStyle from '@src/resource/css/normalize.css';
 import {cssRaw} from 'typestyle';
 
-// import global css style: normalize & main style sheet.
+// import global css style: normalize & global style sheet.
 cssRaw(`
 ${normalizeStyle}
 ${globalStyle}

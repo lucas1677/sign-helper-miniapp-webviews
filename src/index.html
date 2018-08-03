@@ -7,7 +7,13 @@
       // 思路： 将html元素的font-size设置为屏幕宽度的1/20
       // ！警告 不要将 document.documentElement.clientWidth
       //  换成 window.innerWidth, 在魅族手机下会出问题
-      document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+      window.onresize = () => {
+        remInit();
+      };
+      function remInit() {
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px';
+      }
+      remInit();
     </script>
 </head>
 <body>
