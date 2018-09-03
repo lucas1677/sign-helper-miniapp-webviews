@@ -1,6 +1,20 @@
 import * as React from 'react';
+import {connect} from 'react-redux';
 
-class ParticipationAwardList extends React.Component {
+import {loadParticipateAwardDetail} from '@src/app/reducers/appData';
+import {AppState, RankItem} from '@src/types/application';
+
+type Props = {
+  rankItems: RankItem[];
+  loadParticipateAwardDetailHandler: any;
+};
+
+class ParticipationAwardList extends React.Component<Props> {
+  componentWillMount() {
+    document.title = '中报酷赏-参与奖获奖名单';
+    this.props.loadParticipateAwardDetailHandler();
+  }
+
   render() {
     return (
       <div className="participation-award-list-page">
@@ -12,28 +26,17 @@ class ParticipationAwardList extends React.Component {
           <div className="award-l2-title">
             - 参与奖获奖名单 -
           </div>
-          <div className="common-content">
-            <div className="award-item">
-              <div className="award-item-company">
-                贵州茅台
+          <div className="common-content scroll-box">
+            {this.props.rankItems.map((i, index) => (
+              <div className="award-item" key={index}>
+                <div className="award-item-company">
+                  {i.companyName}
+                </div>
+                <div className="award-item-personName">
+                  {i.fullName}
+                </div>
               </div>
-              <div className="award-item-personName">
-                李玟
-              </div>
-              <div className="award-item-company">
-                贵州茅台
-              </div>
-              <div className="award-item-personName">
-                李玟
-              </div>
-              <div className="award-item-company">
-                贵州茅台
-              </div>
-              <div className="award-item-personName">
-                李玟
-              </div>
-
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -41,4 +44,13 @@ class ParticipationAwardList extends React.Component {
   }
 }
 
-export default ParticipationAwardList;
+export default connect(
+  (
+    state: AppState
+  ) => ({
+    rankItems: state.appData.rankItems,
+  }),
+  {
+    loadParticipateAwardDetailHandler: loadParticipateAwardDetail,
+  }
+)(ParticipationAwardList);

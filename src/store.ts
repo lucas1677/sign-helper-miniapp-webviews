@@ -3,6 +3,7 @@ import {applyMiddleware, combineReducers, createStore} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 
+import appDataReducer from '@src/app/reducers/appData';
 import messageReducer from '@src/app/reducers/message';
 
 // import { loadState } from '@src/localStorage';
@@ -10,16 +11,17 @@ import messageReducer from '@src/app/reducers/message';
 // const persistedState = loadState();
 
 const reducer = combineReducers({
-    message: messageReducer,
+  message: messageReducer,
+  appData: appDataReducer,
 });
 
 export default (history) => createStore(
-    connectRouter(history)(reducer),
-    // persistedState,
-    composeWithDevTools(
-        applyMiddleware(
-            thunk,
-            routerMiddleware(history)
-        )
+  connectRouter(history)(reducer),
+  // persistedState,
+  composeWithDevTools(
+    applyMiddleware(
+      thunk,
+      routerMiddleware(history)
     )
+  )
 );

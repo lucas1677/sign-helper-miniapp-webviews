@@ -1,6 +1,10 @@
 import * as React from 'react';
 
 class SignInActivityRuleDetail extends React.Component {
+  componentWillMount() {
+    document.title = '中报酷赏-活动细则';
+  }
+
   render() {
     return (
       <div className="sign-in-activity-rule-detail">
@@ -54,7 +58,7 @@ class SignInActivityRuleDetail extends React.Component {
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">3</div>
               <div className="detail-text">
-                最活跃奖的获奖者为使用【调研签到助手】次数最多的上市公司。
+                最活跃奖的获奖者为使用【调研签到助手】进行会议签到次数最多的上市公司。
               </div>
             </div>
             <div className="rule-detail-item">
@@ -66,7 +70,7 @@ class SignInActivityRuleDetail extends React.Component {
             <div className="rule-detail-item">
               <div className="d-i-sequence-icon">5</div>
               <div className="detail-text">
-                活动统计：本次活动所有数据均会在机会宝后台自动统计，可在XXX上查看活动数据实时排名，以保公平公正；
+                活动统计：本次活动所有数据均会在机会宝后台自动统计，可在本小程序上查看活动数据实时排名，以保公平公正；
               </div>
             </div>
             <div className="rule-detail-item">
